@@ -143,7 +143,8 @@ levelup.gitconnected.com/using-modules-and-packages-in-go
 
 <a href="https://ko-fi.com/angelodeath">
 <img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" />
-</a>a>
+</a>
+
 ## Contact
 
 You can reach me on email:
