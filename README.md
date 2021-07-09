@@ -1,20 +1,17 @@
 # GrowPlayer
-***
 
+My little golang video player. Built on fyne.
+
+Uses toml configuration file
 
 <img alt="Go" src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white"/>
 <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 <img alt="GitHub Actions" src="https://img.shields.io/badge/githubactions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
 <img alt="Notion" src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
 
-My little golang video player. Built on fyne.
-
-Uses toml configuration file
-
 # Documentation
 
 ## Writing a Go App or Library:
-***
 
 Use go to initialize the project modules: 
 
@@ -46,7 +43,6 @@ The following examples show how to set up a blank project properly.
 
 
 ## Adding packages:
-***
 
 Use go to add project dependencies (requirements):
 
@@ -90,7 +86,6 @@ This is best done manually by editing the files and adding the following lines:
 
 
 ## My commands:
-***
 
 Create variable to hold binary filename:
 ```shell
@@ -129,7 +124,6 @@ echo GOPATH: $GOPATH
 
 
 ## Links and Tutorials:
-***
 
 <ins>Intro to modules on go - part-1:</ins>
 
@@ -146,12 +140,10 @@ levelup.gitconnected.com/using-modules-and-packages-in-go
 
 
 ## Support me if you like what I do:
-***
 
 <img alt="Github-sponsors" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" />
 
 ## Contact
-***
 
 You can reach me on email:
 
@@ -166,7 +158,6 @@ Or catch me on youtube:
 
 
 ## License
-***
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 <br/>
