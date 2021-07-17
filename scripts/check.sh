@@ -4,24 +4,20 @@ echo Executing check.sh
 echo
 echo
 
-echo Current path: `pwd`
-echo GOPATH: $GOPATH
-
-target_bin=`realpath --relative-to=.. .`
-
-echo Filename: $target_bin
-echo Full path: `realpath ./$target_bin`
-echo File size: `du -h ./$target_bin | awk '{print $1}'`
-
-echo File type: `file ./$target_bin`
+echo Working directory: `pwd` \(`dirs`\)
+echo File path: ./grow-player
+echo Real path: `realpath ./grow-player`
+echo File size: `du -h ./grow-player | awk '{print $1}'`
+echo File signature: `file ./grow-player`
 echo
 echo
 
-echo Running binary:
-./$target_bin
+echo Executing binary:
+./grow-player
+bin_exit_code=$?
 echo
 echo
 
-echo Exit check.sh
-echo
-echo
+echo Finished execute. Exit status: \"$bin_exit_code\"
+
+exit $bin_exit_code

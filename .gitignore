@@ -1,4 +1,5 @@
 .idea
 scratch
 .DS_Store
-grow_player
+/grow-player
+/grow-player.old

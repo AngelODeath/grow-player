@@ -87,37 +87,32 @@ This is best done manually by editing the files and adding the following lines:
 
 ## My commands:
 
-Create variable to hold binary filename:
-```shell
-target_bin=`realpath --relative-to=.. .`
-```
-
 build (full):
 ```shell
-go build -o $target_bin -v -x -a .
+go build -v -x -a .
 ```
 
 build (quick):
 ```shell
-go build -o $target_bin -v -x .
+go build -v -x .
 ```
 
 Check binary:
 ```shell
-echo Filename: $target_bin
-echo Full path: `realpath ./$target_bin`
-echo File size: `du -h ./$target_bin | awk '{print $1}'`
-file ./$target_bin
+echo Working directory: `pwd` (`dirs`)
+echo File path: ./grow-player
+echo Real path: `realpath ./grow-player`
+echo File size: `du -h ./grow-player | awk '{print $1}'`
+echo File signature: `file ./grow-player`
 ```
 
 Launch:
 ```shell
-./$target_bin
+./grow-player
 ```
 
 Check GOPATH:
 ```shell
-echo Current path: `pwd`
 echo GOPATH: $GOPATH
 ```
 
