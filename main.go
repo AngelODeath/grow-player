@@ -26,4 +26,12 @@ func main() {
 	luckyStringMessage := fmt.Sprintf("Your 50 random characters:\n  %v\n", aRandomString)
 	fmt.Println(luckyNumberMessage)
 	fmt.Println(luckyStringMessage)
+
+	myIP, err := helpers.LookupMyIp()
+	if err != nil {
+		log.Fatal(err)
+	}
+	publicIpMessage := fmt.Sprintf("Your public  IP address:\n  %v\n", myIP)
+
+	fmt.Println(publicIpMessage)
 }
