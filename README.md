@@ -28,7 +28,7 @@ The following examples show how to set up a blank project properly.
   cd ~/Dev
   mkdir my-example-app
   cd my-example-app
-  go mod init my-example-app
+  go mod init github.com/yourname/yourgame
   touch main.go
   ```
 
@@ -37,7 +37,7 @@ The following examples show how to set up a blank project properly.
   cd ~/Dev/my-example-app
   mkdir libs
   cd libs
-  go mod init libs
+  go mod init github.com/yourname/yourgamelibs
   touch helpers.go
   ```
 

@@ -1,4 +1,4 @@
-module grow-player
+module github.com/angelodeath/grow-player
 
 go 1.16
 

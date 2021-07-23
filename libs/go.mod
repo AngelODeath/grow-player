@@ -1,4 +1,4 @@
-module fynelibs
+module github.com/angelodeath/fynelibs
 
 go 1.16
 
