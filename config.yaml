@@ -1,0 +1,6 @@
+# Game settings
+game:
+  width: 640
+  height: 480
+  save_path: "./saves"
+  fullscreen: true
